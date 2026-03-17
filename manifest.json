@@ -1,0 +1,29 @@
+{
+  "name": "casAsia",
+  "short_name": "casAsia",
+  "description": "Gestione lavori casa - Friuli Venezia Giulia",
+  "start_url": "/casasia/",
+  "scope": "/casasia/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1c2b4a",
+  "theme_color": "#1c2b4a",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/casasia2026-arch/casasia/main/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
+```
+
+4. Scorri in fondo e clicca **"Commit changes"** (bottone verde)
+
+---
+
+Ora il repository ha **3 file**:
+```
+✅ index.html
+✅ casAsia.jsx
+✅ manifest.json
