@@ -1,4 +1,7 @@
-import { useState, useEffect, useRef, useCallback } from "react";
+const useState    = React.useState;
+const useEffect   = React.useEffect;
+const useRef      = React.useRef;
+const useCallback = React.useCallback;
 
 // ══════════════════════════════════════════════════════════════════
 //  casAsia — Web App
@@ -1171,3 +1174,4 @@ export default function App() {
     </div>
   );
 }
+ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(App));
