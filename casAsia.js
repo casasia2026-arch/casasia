@@ -6,8 +6,13 @@ import { useState, useEffect, useRef, useCallback } from "react";
 //  PROD_MODE = true   →  produzione (Google Apps Script)
 // ══════════════════════════════════════════════════════════════════
 
-const PROD_MODE = false;
-const API_URL   = "INCOLLA_QUI_URL_APPS_SCRIPT";
+const PROD_MODE = true;
+const API_URL   = "https://script.google.com/macros/s/AKfycbwm6nZZH1AvkfPEahi1xhLMpBvOfsq2SrgAXeSvA7cIwY_nWZswrBt4bgTVMEp23mBq/exec";
+```
+3. Scorri in fondo → **"Commit changes"** → **"Commit changes"**
+4. Aspetta **1-2 minuti** poi apri:
+```
+https://casasia2026-arch.github.io/casasia/
 
 // ── TIPI AGEVOLAZIONE ─────────────────────────────────────────────
 const TIPI_DET = [
